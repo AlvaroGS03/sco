@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{5}{section.1}%
+\contentsline {section}{\numberline {2}¿Qué criterios diferencian los distintos entornos por los que pasa el paquete?}{6}{section.3}%
+\contentsline {subsection}{\numberline {2.1}Criterios para diferenciar los distintos entornos}{6}{subsection.4}%
+\contentsline {subsection}{\numberline {2.2}Clasificación propuesta de los entornos}{7}{subsection.5}%
+\contentsline {subsection}{\numberline {2.3}Relación criterios y entorno}{7}{subsection.6}%
+\contentsline {section}{\numberline {3}¿Qué tecnologías tendría que emplear en cada entorno?}{8}{section.9}%
+\contentsline {subsection}{\numberline {3.1}Requisitos de comunicación y localización}{8}{subsection.10}%
+\contentsline {subsection}{\numberline {3.2}Entorno abierto: carretera y autopista}{9}{subsection.11}%
+\contentsline {subsection}{\numberline {3.3}Entorno urbano}{9}{subsection.12}%
+\contentsline {subsection}{\numberline {3.4}Entorno cerrado: almacenes y centros logísticos}{9}{subsection.13}%
+\contentsline {subsection}{\numberline {3.5}Entorno subterráneo: túneles}{10}{subsection.15}%
+\contentsline {subsection}{\numberline {3.6}Resumen de tecnologías a emplear}{11}{subsection.17}%
+\contentsline {section}{\numberline {4}¿Qué sensores debería incluirse en los paquetes junto con las necesidades operativas y las necesidades para comunicarse con las distintas tecnologías?}{12}{section.19}%
+\contentsline {subsection}{\numberline {4.1}Sensores y elementos de localización}{12}{subsection.21}%
+\contentsline {subsection}{\numberline {4.2}Necesidades operativas}{13}{subsection.23}%
+\contentsline {subsection}{\numberline {4.3}Necesidades para comunicarse con las distintas tecnologías}{13}{subsection.24}%
+\contentsline {section}{\numberline {5}¿Qué mecanismos se emplean para realizar la comunicación entre componentes y cómo realizar el salto entre distintas tecnologías?}{14}{section.25}%
+\contentsline {subsection}{\numberline {5.1}Mecanismos de comunicación entre componentes}{14}{subsection.26}%
+\contentsline {subsection}{\numberline {5.2}Mecanismos para el salto entre tecnologías}{16}{subsection.27}%
+\contentsline {subsection}{\numberline {5.3}Ejemplo de recorrido completo}{19}{subsection.29}%
+\contentsline {subsection}{\numberline {5.4}Entrega de los datos a la plataforma de gestión}{20}{subsection.31}%
+\contentsline {section}{\numberline {6}¿Qué antenas o elementos externos deberían ser desplegados?}{21}{section.32}%
+\contentsline {subsection}{\numberline {6.1}Entorno abierto y urbano: aprovechamiento de la infraestructura existente}{21}{subsection.33}%
+\contentsline {subsection}{\numberline {6.2}Vehículo de transporte: pasarela embarcada (opcional)}{21}{subsection.34}%
+\contentsline {subsection}{\numberline {6.3}Entorno cerrado: almacenes y centros logísticos}{22}{subsection.35}%
+\contentsline {subsection}{\numberline {6.4}Entorno subterráneo: túneles}{23}{subsection.37}%
+\contentsline {subsection}{\numberline {6.5}Resumen de elementos a desplegar}{24}{subsection.38}%
+\contentsline {subsection}{\numberline {6.6}Consideraciones de despliegue}{25}{subsection.40}%
+\contentsline {section}{\numberline {7}¿Qué elementos debería tener la plataforma para tratar con los datos?}{25}{section.41}%
+\contentsline {subsection}{\numberline {7.1}Ingesta multicanal y normalización}{26}{subsection.43}%
+\contentsline {subsection}{\numberline {7.2}Procesamiento de eventos y alarmas}{26}{subsection.44}%
+\contentsline {subsection}{\numberline {7.3}Almacenamiento}{27}{subsection.45}%
+\contentsline {subsection}{\numberline {7.4}Exposición de datos y avisos}{27}{subsection.46}%
+\contentsline {subsection}{\numberline {7.5}Gestión de dispositivos e infraestructura}{28}{subsection.47}%
+\contentsline {subsection}{\numberline {7.6}Seguridad y protección de datos}{28}{subsection.48}%
+\contentsline {subsection}{\numberline {7.7}Síntesis}{29}{subsection.49}%
+\contentsline {section}{\numberline {8}¿Qué contenido se debería poder visualizar en la aplicación de gestión?}{29}{section.51}%
+\contentsline {subsection}{\numberline {8.1}Objetivo de la aplicación}{29}{subsection.52}%
+\contentsline {subsection}{\numberline {8.2}Información que debe mostrar}{30}{subsection.53}%
+\contentsline {subsection}{\numberline {8.3}Comportamiento de la app según el entorno}{30}{subsection.55}%
+\contentsline {subsection}{\numberline {8.4}Diseño de la interfaz}{30}{subsection.56}%
+\contentsline {section}{\numberline {9}Conclusiones}{32}{section.61}%
+\contentsline {section}{Bibliografía}{34}{section*.62}%
