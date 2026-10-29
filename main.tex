@@ -155,6 +155,7 @@
 % =================================================================
 % 1. INTRODUCCIÓN
 % =================================================================
+\clearpage
 \section{Introducción}
 \label{sec:apartado1}
 
@@ -178,6 +179,7 @@ Buscamos con este trabajo ofrecer una solución integral, flexible y adaptable a
 % =================================================================
 % 2. CRITERIOS Y ENTORNOS
 % =================================================================
+\clearpage
 \section{¿Qué criterios diferencian los distintos entornos por los que pasa el paquete?}
 \label{sec:apartado2}
 
@@ -260,6 +262,7 @@ En conclusión, las condiciones de localización y comunicación varían a lo la
 % =================================================================
 % 3. TECNOLOGÍAS POR ENTORNO
 % =================================================================
+\clearpage
 \section{¿Qué tecnologías tendría que emplear en cada entorno?}
 \label{sec:apartado3}
 
@@ -358,6 +361,7 @@ Se considera que ninguna tecnología aislada cubre todo el recorrido, sino que s
 % =================================================================
 % 4. SENSORES DEL PAQUETE
 % =================================================================
+\clearpage
 \section{¿Qué sensores debería incluirse en los paquetes junto con las necesidades operativas y las necesidades para comunicarse con las distintas tecnologías?}
 \label{sec:apartado4}
 
@@ -398,7 +402,7 @@ En la Tabla~\ref{tab:sensores} se detallan los sensores y elementos de localizac
 
 La batería deberá cubrir el envío y los posibles retrasos. Para ahorrar energía, se espaciarán las actualizaciones en reposo y se desactivarán los módulos innecesarios. Las frecuencias de medida y transmisión se ajustarán por separado según la autonomía y la capacidad de la red.
 
-Cada registro conservará identificador, secuencia, marca de tiempo, posición, precisión estimada, fuente de localización y batería, conforme al formato de la Sección~\ref{sec:apartado5_1}. El reloj utilizará una referencia temporal común y la memoria guardará los datos durante los cortes para reenviarlos al recuperar conexión.
+Cada registro conservará identificador, secuencia, marca de tiempo, posición, precisión estimada, fuente de localización, batería y el tipo de evento (como posición periódica, salida o entrada) y, si procede, el identificador del ancla leída, conforme al formato de la Sección~\ref{sec:apartado5_1}. El reloj utilizará una referencia temporal común y la memoria guardará los datos durante los cortes para reenviarlos al recuperar conexión.
 
 La recogida y la entrega se registrarán explícitamente mediante escaneo y confirmación del operario. El tiempo de transporte será la diferencia entre ambas marcas temporales, independientemente de cuándo lleguen los datos a la plataforma. Los eventos automáticos de entrada y salida descritos en la Sección~\ref{sec:apartado5_2} no sustituyen a estos escaneos, sino que permiten desglosar ese tiempo total por etapas.
 
@@ -414,6 +418,7 @@ En el túnel, la radio LoRa deberá ser compatible con la banda y los equipos as
 % =================================================================
 % 5. COMUNICACIÓN ENTRE COMPONENTES Y SALTO ENTRE TECNOLOGÍAS
 % =================================================================
+\clearpage
 \section{¿Qué mecanismos se emplean para realizar la comunicación entre componentes y cómo realizar el salto entre distintas tecnologías?}
 \label{sec:apartado5}
 
@@ -440,7 +445,7 @@ La comunicación del sistema se produce en tres tramos distintos, cada uno con s
 
     \item \textbf{Entre el dispositivo y la infraestructura de localización interior (UWB):} el dispositivo y los equipos UWB fijos (anclas) intercambian mensajes de medida de distancia mediante \emph{two-way ranging}, que mide el tiempo de ida y vuelta de la señal y está recogido en el estándar IEEE 802.15.4z~\cite{ref25}. Se mide el tiempo y no la intensidad de la señal porque la intensidad varía mucho con las reflexiones en superficies metálicas, muy habituales en almacenes y túneles, mientras que el tiempo permite precisión de decímetros combinando UWB con una IMU~\cite{ref23}. Se usa ida y vuelta, y no un solo sentido, porque así no hace falta que los relojes del dispositivo y del ancla estén sincronizados entre sí. Con las distancias a al menos tres anclas de posición conocida se calcula la posición en un plano por trilateración~\cite{ref17}, y con una cuarta también la altura. Si en el almacén se optara por Wi-Fi RTT o Bluetooth Channel Sounding, el principio es el mismo (medida del tiempo o de la fase de ida y vuelta con puntos de acceso o balizas de posición conocida~\cite{ref18,ref19}) y solo cambia la infraestructura. Este enlace se usa solo para localizar porque su alcance es de decenas de metros y no tiene salida a internet, de modo que los datos viajan por otro canal.
 
-    \item \textbf{Entre el dispositivo y la plataforma (transporte de datos):} una vez obtenida la posición con la fuente activa, el microcontrolador la envía a la plataforma de forma periódica y también cuando ocurre un evento relevante, como la salida del almacén o la entrada en el túnel. La frecuencia de envío puede ser menor que la de medida, de modo que no todas las medidas se transmiten al instante. Para ello, la posición se empaqueta en un mensaje binario compacto de unos 20 bytes con el identificador del paquete, un número de secuencia, la marca de tiempo, las coordenadas, la precisión estimada, la tecnología de localización usada y el nivel de batería. Se usa un formato binario, y no texto como JavaScript Object Notation (JSON) que ocuparía varias veces más, porque LoRaWAN limita el tamaño del mensaje y porque en la banda de 868~MHz de la UE el tiempo de emisión está limitado por el ciclo de trabajo, del 1\,\% en la mayoría de subbandas~\cite{ref26,ref27,ref28}. Cada dato tiene su motivo: el número de secuencia sirve para ordenar y detectar mensajes perdidos, la marca de tiempo para el estudio de tiempos, la precisión para que la plataforma sepa cuánto fiarse de la posición y la tecnología usada para poder explicar posibles diferencias. El contenido del mensaje es el mismo en todos los canales, por lo que lo llamaremos formato común. Lo que cambia según el canal es el protocolo que lo transporta:
+    \item \textbf{Entre el dispositivo y la plataforma (transporte de datos):} una vez obtenida la posición con la fuente activa, el microcontrolador la envía a la plataforma de forma periódica y también cuando ocurre un evento relevante, como la salida del almacén o la entrada en el túnel. La frecuencia de envío puede ser menor que la de medida, de modo que no todas las medidas se transmiten al instante. Para ello, la posición se empaqueta en un mensaje binario compacto de unos 20 bytes con el identificador del paquete, un número de secuencia, la marca de tiempo, las coordenadas, la precisión estimada, la tecnología de localización usada, el nivel de batería y el tipo de evento (como posición periódica, salida o entrada) y, si procede, el identificador del ancla leída. Se usa un formato binario, y no texto como JavaScript Object Notation (JSON) que ocuparía varias veces más, porque LoRaWAN limita el tamaño del mensaje y porque en la banda de 868~MHz de la UE el tiempo de emisión está limitado por el ciclo de trabajo, del 1\,\% en la mayoría de subbandas~\cite{ref26,ref27,ref28}. Cada dato tiene su motivo: el número de secuencia sirve para ordenar y detectar mensajes perdidos, la marca de tiempo para el estudio de tiempos, la precisión para que la plataforma sepa cuánto fiarse de la posición y la tecnología usada para poder explicar posibles diferencias. El contenido del mensaje es el mismo en todos los canales, por lo que lo llamaremos formato común. Lo que cambia según el canal es el protocolo que lo transporta:
     \begin{itemize}
         \item \textbf{Por red móvil (4G/5G y LTE-M/NB-IoT):} el dispositivo envía el mensaje a la estación base del operador, que lo lleva por su propia red hasta internet y de ahí a la plataforma. Se usa un protocolo de aplicación ligero: Constrained Application Protocol (CoAP) sobre User Datagram Protocol (UDP)~\cite{ref29} cuando importa más el consumo, porque no establece conexión previa y mantiene la radio encendida menos tiempo, y Message Queuing Telemetry Transport (MQTT) sobre Transmission Control Protocol (TCP)~\cite{ref30} cuando importa más la fiabilidad de entrega, porque mantiene sesión y ofrece niveles de confirmación.
 
@@ -527,6 +532,7 @@ Superado el salto entre tecnologías, el recorrido es común. Sea cual sea el ca
 % =================================================================
 % 6. INFRAESTRUCTURA EXTERNA
 % =================================================================
+\clearpage
 \section{¿Qué antenas o elementos externos deberían ser desplegados?}
 \label{sec:apartado6}
 
@@ -635,6 +641,7 @@ En conclusión, la infraestructura propia se concentra en almacenes y túneles, 
 % =================================================================
 % 7. PLATAFORMA DE GESTIÓN
 % =================================================================
+\clearpage
 \section{¿Qué elementos debería tener la plataforma para tratar con los datos?}
 \label{sec:apartado7}
 
@@ -735,6 +742,7 @@ La Tabla~\ref{tab:sintesis_plataforma} resume los elementos y su trazabilidad a 
 % =================================================================
 % 8. APLICACIÓN DE GESTIÓN
 % =================================================================
+\clearpage
 \section{¿Qué contenido se debería poder visualizar en la aplicación de gestión?}
 \label{sec:apartado8}
 
@@ -781,7 +789,7 @@ La información mostrada por la aplicación dependerá del entorno en el que se 
 
     \item En almacén: la aplicación mostrará la ubicación interior del paquete, por ejemplo, indicando la zona o el pasillo en el que se encuentra, si está disponible.
 
-    \item En túnel: si no hay cobertura de comunicación, la aplicación reportará la última posición confirmada, indicando la hora de la actualización. Se indicará también el estado de la comunicación.
+    \item En túnel: la aplicación mostrará la posición a lo largo del túnel obtenida con UWB + IMU y recibida a través del cable radiante. Solo si falla la infraestructura o el dispositivo queda en un tramo sin enlace, mostrará la última posición confirmada, su hora y los mensajes pendientes.
 \end{itemize}
 
 \subsection{Diseño de la interfaz}
@@ -830,6 +838,7 @@ El enlace al repositorio donde se puede bajar el HTML de la app simulada es el s
 % =================================================================
 % 9. CONCLUSIONES
 % =================================================================
+\clearpage
 \section{Conclusiones}
 \label{sec:apartado9}
 

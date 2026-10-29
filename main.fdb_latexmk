@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1793201750.43855 "/Users/alvarogs/Downloads/sco/main.tex" "main.pdf" "main" 1793201752.5239 0
-  "/Users/alvarogs/Downloads/sco/main.tex" 1793201750.23602 95337 6abd05c8f338da112ff2ed0b2994070b ""
+["pdflatex"] 1793207090.71577 "/Users/alvarogs/Downloads/sco/main.tex" "main.pdf" "main" 1793207092.75558 0
+  "/Users/alvarogs/Downloads/sco/main.tex" 1793207088.19367 95756 e8393f0ebabdfd10b937641b9cc8198e ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -147,11 +147,11 @@
   "logitrack_carretera.png" 1793107048 244348 18116d24ef88ab9e01d3aaf381e43daa ""
   "logitrack_tunel.png" 1793107048 247582 1c607e7d2e85390855baaf7c0aab520c ""
   "logitrack_urbano.png" 1793107048 247144 a69b3f2b4028724b27dab37ec219fec8 ""
-  "main.aux" 1793201752.41368 45391 5bb0a389de720551d338ef722e86bae7 "pdflatex"
-  "main.lof" 1793201752.42029 1681 4f89b7a9ba2309588983c663e2a48de8 "pdflatex"
-  "main.lot" 1793201752.42031 1274 87e7ea283216670b8dbcc64370b1fd50 "pdflatex"
-  "main.tex" 1793201750.23602 95337 6abd05c8f338da112ff2ed0b2994070b ""
-  "main.toc" 1793201752.42026 4617 b7490e3d4fe30b9eeb916d8c31fd64e6 "pdflatex"
+  "main.aux" 1793207092.65844 45395 b1d948ec01d4937b7e09d03c4861b969 "pdflatex"
+  "main.lof" 1793207092.66433 1681 4980a8cc00173829a76718a35bacb429 "pdflatex"
+  "main.lot" 1793207092.66435 1274 24cebc7a4c42d9f7f129b61d3d938347 "pdflatex"
+  "main.tex" 1793207088.19367 95756 e8393f0ebabdfd10b937641b9cc8198e ""
+  "main.toc" 1793207092.6643 4619 19fc1e5cc42ad935579941b338bbb789 "pdflatex"
   "salto_entre_entornos_estados.png" 1793107046 522727 b4c2e6a256a90c8ddafedbc799924857 ""
   "tunel_localizacion_comunicaciones-2.png" 1793107046 344471 fdde5d7790978ff66c0c645e8e283ead ""
   "upv_logo.png" 1793107046 83343 e6dd709d9827ef355661550006277697 ""

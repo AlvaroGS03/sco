@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.19)  28 OCT 2026 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.19)  28 OCT 2026 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,71 +600,89 @@ LaTeX Info: Redefining \% on input line 1.
 <vision_general_sistema.png, id=169, 3011.25pt x 1636.1125pt>
 File: vision_general_sistema.png Graphic file (type png)
 <use vision_general_sistema.png>
-Package pdftex.def Info: vision_general_sistema.png  used on input line 171.
+Package pdftex.def Info: vision_general_sistema.png  used on input line 172.
 (pdftex.def)             Requested size: 455.24411pt x 247.3286pt.
- [5 <./vision_general_sistema.png>] [6]
+ [5
+
+ <./vision_general_sistema.png>] [6
+
+]
 <entornos.png, id=201, 2055.68pt x 1116.17pt>
 File: entornos.png Graphic file (type png)
 <use entornos.png>
-Package pdftex.def Info: entornos.png  used on input line 255.
+Package pdftex.def Info: entornos.png  used on input line 257.
 (pdftex.def)             Requested size: 455.24411pt x 247.17613pt.
- [7] [8 <./entornos.png>] [9] [10]
-<tunel_localizacion_comunicaciones-2.png, id=268, 3011.25pt x 1636.1125pt>
+ [7] [8 <./entornos.png>] [9
+
+] [10]
+<tunel_localizacion_comunicaciones-2.png, id=264, 3011.25pt x 1636.1125pt>
 File: tunel_localizacion_comunicaciones-2.png Graphic file (type png)
 <use tunel_localizacion_comunicaciones-2.png>
-Package pdftex.def Info: tunel_localizacion_comunicaciones-2.png  used on input line 328.
+Package pdftex.def Info: tunel_localizacion_comunicaciones-2.png  used on input line 331.
 (pdftex.def)             Requested size: 455.24411pt x 247.3286pt.
- [11 <./tunel_localizacion_comunicaciones-2.png>]
-<dispositivo_paquete_bloques.png, id=295, 3011.25pt x 1636.1125pt>
+ [11] [12 <./tunel_localizacion_comunicaciones-2.png>]
+<dispositivo_paquete_bloques.png, id=300, 3011.25pt x 1636.1125pt>
 File: dispositivo_paquete_bloques.png Graphic file (type png)
 <use dispositivo_paquete_bloques.png>
-Package pdftex.def Info: dispositivo_paquete_bloques.png  used on input line 368.
+Package pdftex.def Info: dispositivo_paquete_bloques.png  used on input line 372.
 (pdftex.def)             Requested size: 455.24411pt x 247.3286pt.
- [12 <./dispositivo_paquete_bloques.png>] [13] [14{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [15]
-<salto_entre_entornos_estados.png, id=354, 3312.375pt x 1799.72375pt>
+ [13
+
+ <./dispositivo_paquete_bloques.png>] [14] [15
+
+{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [16]
+<salto_entre_entornos_estados.png, id=358, 3312.375pt x 1799.72375pt>
 File: salto_entre_entornos_estados.png Graphic file (type png)
 <use salto_entre_entornos_estados.png>
-Package pdftex.def Info: salto_entre_entornos_estados.png  used on input line 466.
+Package pdftex.def Info: salto_entre_entornos_estados.png  used on input line 471.
 (pdftex.def)             Requested size: 455.24411pt x 247.34607pt.
- [16] [17 <./salto_entre_entornos_estados.png (PNG copy)>] [18] [19] [20]
-<infraestructura_entorno_cerrado.png, id=400, 3011.25pt x 1636.1125pt>
+ [17] [18 <./salto_entre_entornos_estados.png (PNG copy)>] [19] [20] [21]
+<infraestructura_entorno_cerrado.png, id=404, 3011.25pt x 1636.1125pt>
 File: infraestructura_entorno_cerrado.png Graphic file (type png)
 <use infraestructura_entorno_cerrado.png>
-Package pdftex.def Info: infraestructura_entorno_cerrado.png  used on input line 556.
+Package pdftex.def Info: infraestructura_entorno_cerrado.png  used on input line 562.
 (pdftex.def)             Requested size: 455.24411pt x 247.3286pt.
- [21] [22 <./infraestructura_entorno_cerrado.png (PNG copy)>] [23] [24]
-<figura_plataforma.png, id=454, 3011.25pt x 1636.1125pt>
+ [22
+
+] [23 <./infraestructura_entorno_cerrado.png (PNG copy)>] [24] [25] [26]
+<figura_plataforma.png, id=462, 3011.25pt x 1636.1125pt>
 File: figura_plataforma.png Graphic file (type png)
 <use figura_plataforma.png>
-Package pdftex.def Info: figura_plataforma.png  used on input line 645.
+Package pdftex.def Info: figura_plataforma.png  used on input line 652.
 (pdftex.def)             Requested size: 455.24411pt x 247.3286pt.
- [25] [26 <./figura_plataforma.png (PNG copy)>] [27] [28] [29] [30]
-<logitrack_carretera.png, id=563, 1127.412pt x 548.0475pt>
+ [27
+
+ <./figura_plataforma.png (PNG copy)>] [28] [29] [30] [31
+
+]
+<logitrack_carretera.png, id=567, 1127.412pt x 548.0475pt>
 File: logitrack_carretera.png Graphic file (type png)
 <use logitrack_carretera.png>
-Package pdftex.def Info: logitrack_carretera.png  used on input line 802.
+Package pdftex.def Info: logitrack_carretera.png  used on input line 810.
 (pdftex.def)             Requested size: 386.96027pt x 188.09818pt.
-<logitrack_urbano.png, id=564, 1127.412pt x 546.24075pt>
+<logitrack_urbano.png, id=568, 1127.412pt x 546.24075pt>
 File: logitrack_urbano.png Graphic file (type png)
 <use logitrack_urbano.png>
-Package pdftex.def Info: logitrack_urbano.png  used on input line 809.
+Package pdftex.def Info: logitrack_urbano.png  used on input line 817.
 (pdftex.def)             Requested size: 386.96027pt x 187.47807pt.
-<logitrack_almacen.png, id=565, 1133.4345pt x 549.252pt>
+ [32 <./logitrack_carretera.png>]
+<logitrack_almacen.png, id=574, 1133.4345pt x 549.252pt>
 File: logitrack_almacen.png Graphic file (type png)
 <use logitrack_almacen.png>
-Package pdftex.def Info: logitrack_almacen.png  used on input line 816.
+Package pdftex.def Info: logitrack_almacen.png  used on input line 824.
 (pdftex.def)             Requested size: 386.96027pt x 187.51425pt.
- [31 <./logitrack_carretera.png> <./logitrack_urbano.png>]
-<logitrack_tunel.png, id=572, 1127.412pt x 540.21825pt>
+<logitrack_tunel.png, id=575, 1127.412pt x 540.21825pt>
 File: logitrack_tunel.png Graphic file (type png)
 <use logitrack_tunel.png>
-Package pdftex.def Info: logitrack_tunel.png  used on input line 823.
+Package pdftex.def Info: logitrack_tunel.png  used on input line 831.
 (pdftex.def)             Requested size: 386.96027pt x 185.41106pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [32 <./logitrack_almacen.png> <./logitrack_tunel.png>] [33] [34] [35] [36] [37] (./main.aux
+ [33 <./logitrack_urbano.png> <./logitrack_almacen.png> <./logitrack_tunel.png>] [34] [35
+
+] [36] [37] [38] [39] (./main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -674,18 +692,18 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17811 strings out of 467525
- 282897 string characters out of 5418981
- 787376 words of memory out of 5000000
+ 17813 strings out of 467525
+ 282911 string characters out of 5418981
+ 787378 words of memory out of 5000000
  46078 multiletter control sequences out of 15000+600000
  657707 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,2303b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (38 pages, 3363793 bytes).
+Output written on main.pdf (40 pages, 3365084 bytes).
 PDF statistics:
- 918 PDF objects out of 1000 (max. 8388607)
- 820 compressed objects within 9 object streams
- 150 named destinations out of 1000 (max. 500000)
+ 927 PDF objects out of 1000 (max. 8388607)
+ 827 compressed objects within 9 object streams
+ 152 named destinations out of 1000 (max. 500000)
  48026 words of extra memory for PDF output out of 51595 (max. 10000000)
 

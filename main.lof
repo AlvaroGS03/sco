@@ -1,12 +1,12 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Visión general del sistema de seguimiento propuesto, desde la recogida hasta la entrega.}}{5}{figure.caption.2}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Entornos por los que pasa el paquete: señal GNSS, comunicaciones y principal dificultad.}}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Entorno subterráneo: localización y comunicaciones en el túnel.}}{11}{figure.caption.16}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Dispositivo asociado al paquete: sensores, módulos de localización, comunicaciones y base del dispositivo.}}{12}{figure.caption.20}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Salto entre entornos: estados y eventos que disparan el cambio.}}{17}{figure.caption.28}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Infraestructura propia en el entorno cerrado.}}{22}{figure.caption.36}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Plataforma: del dato recibido a la aplicación de gestión.}}{26}{figure.caption.42}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Interfaz de la aplicación de gestión en el entorno de carretera.}}{31}{figure.caption.57}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Interfaz de la aplicación de gestión en el entorno urbano.}}{31}{figure.caption.58}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Interfaz de la aplicación de gestión en el entorno de almacén.}}{32}{figure.caption.59}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Interfaz de la aplicación de gestión en el entorno de túnel.}}{32}{figure.caption.60}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Entorno subterráneo: localización y comunicaciones en el túnel.}}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Dispositivo asociado al paquete: sensores, módulos de localización, comunicaciones y base del dispositivo.}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Salto entre entornos: estados y eventos que disparan el cambio.}}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Infraestructura propia en el entorno cerrado.}}{23}{figure.caption.36}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Plataforma: del dato recibido a la aplicación de gestión.}}{27}{figure.caption.42}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Interfaz de la aplicación de gestión en el entorno de carretera.}}{32}{figure.caption.57}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Interfaz de la aplicación de gestión en el entorno urbano.}}{33}{figure.caption.58}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Interfaz de la aplicación de gestión en el entorno de almacén.}}{33}{figure.caption.59}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Interfaz de la aplicación de gestión en el entorno de túnel.}}{33}{figure.caption.60}%
